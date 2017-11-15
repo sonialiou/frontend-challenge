@@ -5,65 +5,264 @@
     <title></title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://use.fontawesome.com/37471687aa.js"></script>
   </head>
   <body>
-    <section class= "container">
-      <h1>"Washington and State"</h1>
-      <section class= "busybus-route-data">
-        <div class= "category">
-          <h2>Eastbound</h2>
-          <div class= "content">
-            <h3>60</h3>
-            <h4>Randolph/Harbor Dr.</h4>
-            <h5> and in 20 minutes</h5>
+    <section class="container">
+      <nav>
+        <div class="container-header">
+          <h1>Washington and State</h1>
+        </div>
+        <div class="arrow-left">
+          <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        </div>
+        <div class="bus-icon">
+          <i class="fa fa-bus fa-2x" aria-hidden="true"></i>
+        </div>
+      </nav>
+      <section class= "route-data">
+        <div class="box" id="box1">
+          <div class=box-header>
+            <h2 class="category">Eastbound</h2>
+            <div class=box-header-icon>
+              <div class="bus-line-icon"id="5">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-stack-1x fa-inverse">60</i>
+                </span>
+              </div>
+              <div class="bus-line-icon-124">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-stack-1x fa-inverse">124</i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class= "box-content">
+            <div class="box-content-child">
+              <!-- <h3 class="bus-line">60</h3> -->
+              <h4 class= "destination">Randolph/Harbor Dr.</h4>
+                <div class="bus-line-icon"id="60">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-stack-1x fa-inverse">60</i>
+                    </span>
+                  </p>
+                </div>
+                <p class="arrival">
+                    <i class="fa fa-rss" aria-hidden="true"> 5 min</i>
+                </p>
+              <h5 class= "frequency">and in 25, 45</h5>
+              <div class="arrow-right">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class= "box-content-child">
+              <!--<h3 class="bus-line">124</h3>-->
+              <h4 class="destination" id="navy-pier-1">Navy Pier</h4>
+                <div class="bus-line-icon-124">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-stack-1x fa-inverse">124</i>
+                    </span>
+                  </p>
+                </div>
+              <p class="arrival">
+                  <i class="fa fa-rss" aria-hidden="true"> 7 min</i>
+              </p>
+              <h5 class="frequency">and in 17, 27</h5>
+              <div class="arrow-right">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </div>
+            </div>
           </div>
         </div>
-        <div class= "content">
-            <h3> 124</h3>
-            <h4>Navy Pier</h4>
-            <h5>and in 10 minutes</h5>
-        </div>
-        <div class= "category">
-          <h2>Northbound</h2>
-          <div class= "content">
-            <h3>151</h3>
-            <h4>Devon/Clark</h4>
-            <h5>and in 16 minutes</h5>
+        <div class= "box" id="box2">
+          <div class="box-header">
+            <h2 class="category">Northbound</h2>
+              <div class=box-header-icon>
+                <div class="bus-line-icon"id="151">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-stack-1x fa-inverse">151</i>
+                  </span>
+                </div>
+              </div>
+          </div>
+          <div class= "box-content">
+            <div class= "box-content-child">
+              <!--<h3 class="bus-line">151</h3>-->
+              <h4 class="destination" id="devon-clark">Devon/Clark</h4>
+              <div class="bus-line-icon"id="151">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-stack-1x fa-inverse">151</i>
+                </span>
+              </div>
+              <p class="arrival">
+                <i class="fa fa-rss" aria-hidden="true">8 min</i>
+              </p>
+              <h5 class="frequency">and in 14, 40</h5>
+              <div class="arrow-right">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="category">
-          <h2>Southbound</h2>
-          <div class="content">
-            <h2>J14</h2>
-            <h3>103rd/Stony Island</h3>
-            <h4>Navy Pier</h4>
-            <h5>and in 10 minutes</h5>
+        <div class="box" id="box3">
+          <div class="box-header">
+            <h2 class="category">Southbound</h2>
+            <div class=box-header-icon>
+              <div class="bus-line-icon"id="J14">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-stack-1x fa-inverse">J14</i>
+                </span>
+              </div>
+              <div class="bus-line-icon-124">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-stack-1x fa-inverse">124</i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="box-content">
+            <div class="box-content-child">
+              <!--<h3 class="bus-line">J14</h3>-->
+              <h4 class="destination">103rd/Stony Island</h3>
+                <div class="bus-line-icon"id=j14-body>
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-stack-1x fa-inverse">J14</i>
+                  </span>
+                </div>
+                <p class="arrival">
+                  <i class="fa fa-rss" aria-hidden="true"> 3 min</i>
+                </p>
+              <h5 class="frequency">and in 18, 33</h5>
+              <div class="arrow-right">
+               <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="box-content-child">
+              <!--<h3 class="bus-line">124</h2>-->
+              <h4 class="destination" id="navy-pier-2">Navy Pier</h3>
+                <div class="bus-line-icon-124">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-stack-1x fa-inverse">124</i>
+                  </span>
+                </div>
+                <p class="arrival">
+                  <i class="fa fa-rss" aria-hidden="true"> 5 min</i>
+                </p>
+              <h5 class="frequency">and in 15, 25</h5>
+              <div class="arrow-right">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </div>
+            </div>
           </div>
         </div>
-        <div class= "category">
-          <h2>Reroute</h2>
-          <div class="content">
-            <h3>6x</h3>
-            <h4>Jackson Park Express</h4>
-            <h5>N/A</h5>
+        <div class= "box" id="box4">
+          <div class="box-header">
+            <h2 class="category">Reroute</h2>
+            <div class=box-header-icon>
+              <div class="bus-line-icon"id="6x">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-stack-1x fa-inverse">6x</i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="box-content">
+            <div class="box-content-child">
+              <!--<h3 class="bus-line">6x</h3>-->
+              <h4 class="destination" id="jackson-park">Jackson Park Express</h4>
+                <div class="bus-line-icon"id="6x">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-stack-1x fa-inverse">6x</i>
+                  </span>
+                </div>
+              <!--<h5 class="frequency">N/A</h5>-->
+              <div class="arrow-right">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="category">
-          <h2>Out of service</h3>
-          <div class="content">
-            <h3>4</h3>
-            <h4>Cottage Grove</h4>
-            <h5>12:10am</h5>
+        <div class="box" id="box5">
+          <div class="box-header">
+            <h2 class="category">Out of service</h3>
+              <div class="bus-header-icon">
+                <div class="bus-line-icon"id="4">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-stack-1x fa-inverse">4</i>
+                  </span>
+                </div>
+                <div class="bus-line-icon"id="20">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-stack-1x fa-inverse">20</i>
+                  </span>
+                </div>
+                <div class="bus-line-icon"id="157">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-stack-1x fa-inverse">157</i>
+                  </span>
+                </div>
+              </div>
           </div>
-          <div class="content">
-            <h3>20</h3>
-            <h4>Madison</h4>
-            <h5>12:10am</h5>
-          </div>
-          <div class="content">
-            <h3>157</h3>
-            <h4>Streeterville/Taylor</h4>
-            <h5>6:00am</h5>
+          <div class="box-content">
+            <div class="box-content-child">
+              <!--<h3 class="bus-line">4</h3>-->
+              <h4 class="destination">Cottage Grove</h4>
+                <div class="bus-line-icon"id="4-body">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-stack-1x fa-inverse">4</i>
+                  </span>
+                </div>
+              <h5 class="resume">12:10am</h5>
+              <div class="arrow-right">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="box-content-child">
+              <!--<h3 class="bus-line">20</h3>-->
+              <h4 class="destination">Madison</h4>
+                <div class="bus-line-icon"id="20-body">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-stack-1x fa-inverse">20</i>
+                  </span>
+                </div>
+              <h5 class="resume">12:10am</h5>
+              <div class="arrow-right">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="box-content-child">
+              <!--<h3 class="bus-line">157</h3>-->
+              <h4 class="destination" id="streeterville-taylor">Streeterville/Taylor</h4>
+                <div class="bus-line-icon"id="157-body">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-stack-1x fa-inverse">157</i>
+                  </span>
+                </div>
+              <h5 class="resume">6:00am</h5>
+              <div class="arrow-right">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </div>
+            </div>
           </div>
       </section>
     </section>
