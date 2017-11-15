@@ -13,7 +13,7 @@ body {
 }
 h1 {
   font-size: 18px;
-  font-weight:bold;
+  font-weight:medium;
 }
 nav {
   background-color:#5271CE;
@@ -33,10 +33,38 @@ nav {
   border-bottom:1px solid #979797;
 }
 
+#navy-pier-1, #devon-clark, #navy-pier-2, #streeterville-taylor, #jackson-park{
+  border-bottom: none;
+}
+
 h2{
   float:right;
 }
 
+#bus-60, #bus-60-body{
+color: #922E8F;
+}
+#bus-124, #bus-124-body, #bus-124-2, #bus-124-body-2{
+  color: #FBA529;
+}
+#bus-151, #bus-151-body {
+  color: #00549C;
+}
+#bus-j14, #bus-j14-body {
+  color:#00864F;
+}
+#bus-6x, #bus-6x-body {
+  color:#D51B46;
+}
+#bus-4, #bus-4-body{
+  color: #68A2C2;
+}
+#bus-20, #bus-20-body{
+  color: #EA837F;
+}
+#bus-157, #bus-157-body{
+  color: #139797;
+}
 .arrival, .resume {
   color: green;
 }
