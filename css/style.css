@@ -3,7 +3,7 @@ box-sizing: border-box;
 }
 body {
   background-color: white;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   font size: 15px;
 }
 .container {
@@ -134,7 +134,4 @@ color: #922E8F;
 }
 .frequency, .destination{
   color: #545454;
-}
-#box3{
-  border-top: 1px solid #979797;
 }
