@@ -9,36 +9,97 @@ body {
 .container {
   margin: 0 auto;
   width: 375px;
-  background-color: #EFEFF4;
+  background-color: #FAFAFB;
+  padding-bottom: 10px;
+}
+
+.category{
+  padding-top:15px;
+  padding-bottom:15px;
+  color: #545454;
+}
+.box-header-icon {
+  width: 70%;
+  display: inline-block;
+  float: left;
+}
+.box-bus-line-icon {
+  width:20%;
+  float:left;
+  display: inline-block;
+}
+
+.category{
+  width: 30%;
+  display:inline-block;
 }
 h1 {
-  font-size: 18px;
-  font-weight:medium;
+  font-size: 20px;
 }
 nav {
   background-color:#5271CE;
   color: white;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 25px;
+}
+
+.container-header-icons{
+  width:20%;
+  padding-top:25px;
+  display:inline-block;
+  float:left;
+}
+
+.container-header {
+  padding-top: 20px;
+  width: 80%;
+  display: inline-block;
 }
 .box-content-child {
   border-bottom: 1px solid #979797;
+  padding: 10px;
+  font-size:14px;
+  padding-bottom:30px;
 }
-.box{
+
+.box-header{
+  border-bottom:1px solid #979797;
   padding:10px;
+  background-color: #ECECEC;
+}
+
+.box{
   margin:10px;
   border: 1px solid #979797;
   background-color:#FFFFFF;
 }
-.box-header{
-  border-bottom:1px solid #979797;
+.box-content-grandchild-1{
+  width:70%;
+  display:inline-block;
+  float:left;
 }
+
+.bus-line-icon{
+  width:17%;
+  display:inline-block;
+  float:left;
+}
+.destination{
+  width:60%;
+  display:inline-block;
+}
+
+.arrow-right{
+  float:right;
+}
+#box-content-5{
+  padding-bottom:10px;
+}
+
 
 #navy-pier-1, #devon-clark, #navy-pier-2, #streeterville-taylor, #jackson-park{
   border-bottom: none;
-}
-
-h2{
-  float:right;
 }
 
 #bus-60, #bus-60-body{
@@ -67,4 +128,13 @@ color: #922E8F;
 }
 .arrival, .resume {
   color: green;
+}
+.arrow-right{
+  color: #CCCCCC;
+}
+.frequency, .destination{
+  color: #545454;
+}
+#box3{
+  border-top: 1px solid #979797;
 }
