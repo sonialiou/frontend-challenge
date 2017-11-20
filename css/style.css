@@ -107,9 +107,14 @@ nav {
 }
 .arrow-right{
   float:right;
-  margin-top: -20px;
+  margin-top: -21px;
 }
-
+.minute{
+  display:inline;
+}
+.arrival {
+  padding-bottom:2px;
+}
 #navy-pier-1, #devon-clark, #navy-pier-2, #streeterville-taylor, #jackson-park{
   border-bottom: none;
 }
@@ -146,13 +151,16 @@ background-color: #922E8F;
 }
 .frequency, .destination{
   color: #545454;
+  font-size:13px;
 }
 .spacing-fix{
   /**padding-bottom:2px;**/
 }
 .resume{
-  padding-top:14px;
+  padding-top:9px;
+  padding-bottom:9px;
 }
 #na{
-  padding-top:14px;
+  padding-top:9px;
+  padding-bottom:9px;
 }
