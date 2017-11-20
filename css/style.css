@@ -14,14 +14,13 @@ body {
 }
 
 .category{
-  padding-top:15px;
-  padding-bottom:15px;
   color: #545454;
+  display:inline-block;
+  width:30%;
 }
 .box-header-icon {
-  width: 70%;
+  width: 68.8%;
   display: inline-block;
-  float: left;
 }
 .box-bus-line-icon {
   width:20%;
@@ -29,10 +28,6 @@ body {
   display: inline-block;
 }
 
-.category{
-  width: 30%;
-  display:inline-block;
-}
 h1 {
   font-size: 20px;
 }
@@ -42,30 +37,32 @@ nav {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 25px;
+  padding-top:25px;
 }
 
+
 .container-header-icons{
-  width:20%;
-  padding-top:25px;
+  width:25%;
+  padding-top:3px;
   display:inline-block;
   float:left;
 }
 
 .container-header {
-  padding-top: 20px;
-  width: 80%;
+  /**padding-top: 25px;**/
+  width: 75%;
   display: inline-block;
 }
 .box-content-child {
   border-bottom: 1px solid #979797;
   padding: 10px;
   font-size:14px;
-  padding-bottom:30px;
+  /**padding-bottom:24px;**/
 }
 
 .box-header{
   border-bottom:1px solid #979797;
-  padding:10px;
+  padding:12px;
   background-color: #ECECEC;
 }
 
@@ -74,57 +71,72 @@ nav {
   border: 1px solid #979797;
   background-color:#FFFFFF;
 }
-.box-content-grandchild-1{
+.bus-line-destination{
   width:70%;
   display:inline-block;
   float:left;
 }
 
 .bus-line-icon{
-  width:17%;
+  width:20%;
   display:inline-block;
   float:left;
 }
-.destination{
-  width:60%;
+.bus-square {
+  color: white;
+  padding-left: 10px;
+  padding-right:10px;
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 16px;
+  padding-top:3px;
+  padding-bottom:3px;
+}
+
+.bus-body{
+  font-size:13px;
+  margin-right:5px;
+}
+.bus-line-destination{
+  width:70%;
   display:inline-block;
 }
-
+.destination{
+  display:inline-block;
+  width:60%;
+}
 .arrow-right{
   float:right;
+  margin-top: -20px;
 }
-#box-content-5{
-  padding-bottom:10px;
-}
-
 
 #navy-pier-1, #devon-clark, #navy-pier-2, #streeterville-taylor, #jackson-park{
   border-bottom: none;
 }
 
 #bus-60, #bus-60-body{
-color: #922E8F;
+background-color: #922E8F;
 }
 #bus-124, #bus-124-body, #bus-124-2, #bus-124-body-2{
-  color: #FBA529;
+  background-color: #FBA529;
 }
 #bus-151, #bus-151-body {
-  color: #00549C;
+  background-color: #00549C;
 }
 #bus-j14, #bus-j14-body {
-  color:#00864F;
+  background-color:#00864F;
 }
 #bus-6x, #bus-6x-body {
-  color:#D51B46;
+  background-color:#D51B46;
 }
 #bus-4, #bus-4-body{
-  color: #68A2C2;
+  background-color: #68A2C2;
 }
 #bus-20, #bus-20-body{
-  color: #EA837F;
+  background-color: #EA837F;
 }
 #bus-157, #bus-157-body{
-  color: #139797;
+  background-color: #139797;
 }
 .arrival, .resume {
   color: green;
@@ -134,4 +146,13 @@ color: #922E8F;
 }
 .frequency, .destination{
   color: #545454;
+}
+.spacing-fix{
+  /**padding-bottom:2px;**/
+}
+.resume{
+  padding-top:14px;
+}
+#na{
+  padding-top:14px;
 }
